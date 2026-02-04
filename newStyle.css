@@ -364,3 +364,24 @@ body::before {
         transform 0.25s ease,
         box-shadow 0.25s ease;
 }
+
+.producten-button {
+    transition:
+        background-color 0.25s ease,
+        color 0.25s ease,
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+    background-color: var(--color-accent);
+    color: var(--color-secondary);
+    border-radius: 50px;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.producten-button:hover {
+    background-color: var(--color-tertiary);
+    color: var(--color-secondary);
+    transform: scale(1.15);
+    box-shadow: 0 0 20px #000000;
+    padding: 10px 20px;
+}
