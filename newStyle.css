@@ -172,15 +172,18 @@ body {
     margin-bottom: 20px;
 }
 
+.page-main img {
+    max-width: 50%;
+    height: auto;
+}
+
 
 .page-footer {
     grid-area: footer;
     background: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
-    /* border-radius: 100px 100px 0 0; */
     padding: 40px 20px;
     text-align: center;
     color: var(--color-secondary);
-    /* box-shadow: 0 0 20px #000000; */
 }
 
 .footer .social-media {
