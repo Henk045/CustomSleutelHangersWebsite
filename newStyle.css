@@ -385,3 +385,7 @@ body::before {
     box-shadow: 0 0 20px #000000;
     padding: 10px 20px;
 }
+
+.producten-button:active {
+    transform: scale(0.95);
+}
